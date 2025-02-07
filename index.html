@@ -51,13 +51,22 @@ font-size: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 400;
     width: 400;
-
 }
-.but{color: white;
-    background-color: #e60d0d;
+.mail{
+    background-color:transparent;
+    border: none;
+    box-shadow: none;
+    color: inherit;
+    width: 100%;
+    height: 50%;
+}
+.text-align{ position: absolute;
+    right:0;
+    top: 3%;
+}
     
 
-}
+
 
     </style>
 </head>
@@ -66,8 +75,8 @@ font-size: 16px;
     <div main="sect1">
         <img src="img/netflix-3.svg" width="300" alt="">
         <div class="container">
-<div class="buttonsection1">
-<li><button class="signin">sign in</button></li>
+    <div class="text-align">       
+<button style="width: 100px;height: 20px; background-color: #e60d0d;">sign in</button>
 </div>
 <br>
 <br>
@@ -78,11 +87,13 @@ font-size: 16px;
 </h1>
 <p class="p1">starts at #2,200.cancel anytime</p>
 <p class="p2">Ready to watch? Enter your email to creat or <br>restartyour membership</p>
-<div>
+<div class=" mail">
     <input type="text" placeholder="Email addres">
     </div>
+    <br>
+    <br>
 <div>
-    <button class=" but">Get Started > </button></div>
+    <button style="width: 10%; height: 10%; color: white; background-color: #e60d0d;">Get Started > </button></div>
 </div>
 </div> 
 </body>
